@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏨 Resort & Hotel Price Comparator
 
-## Getting Started
+A modern web app that compares hotel and resort prices across multiple platforms, helping users quickly find the best deals based on location, dates, and preferences.
 
-First, run the development server:
+Built as a portfolio project with scalability in mind — starting with mock data and designed to support real booking APIs.
 
-```bash
+✨ Features (Phase 0 / MVP)
+
+🔍 Search resorts by location and date
+
+💰 Compare prices from multiple sources
+
+🏷️ Highlight cheapest available option
+
+🌙 Clean, responsive UI (mobile-first)
+
+🌍 Currency-ready architecture
+
+🛠 Tech Stack
+
+Next.js (App Router)
+
+TypeScript
+
+Tailwind CSS
+
+Zustand (state management)
+
+🚀 Getting Started
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
+to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧪 Data Strategy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Phase 0: Local mock JSON data
 
-## Learn More
+Phase 1: External hotel / booking APIs
 
-To learn more about Next.js, take a look at the following resources:
+Phase 2: Real-time price updates + caching
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🗺 Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Filters (price, rating, amenities)
 
-## Deploy on Vercel
+Currency switcher
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dark mode
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+API integration
+
+Deployment on Vercel
+
+🌐 Deployment
+
+The app is optimized for deployment on Vercel.
+
+👉 https://vercel.com
